@@ -8,5 +8,9 @@
 * *git checkout* - возврад к конкретному коммиту
 * *git checkout .* - отмена незафиксированных изменений
 * *git commit master* - возврат на актульную версию
+* *git branch* - вывод списка веток
+* *git branch myBrunch* - создание ветки с именем myBrunch
+* *git merge* - слияние веток
+* *git log --graph* - отображение дерева коммитов
 
 ## оформление Markdown файлов :
