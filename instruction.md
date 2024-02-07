@@ -28,3 +28,14 @@
 7. "[текст ссылки](адрес ссылки)" ... - Добавление ссылки на внешний ресурс
 
 [Руководство по оформлению файлов Markdown](https://gist.github.com/Jekins/2bf2d0638163f1294637)
+
+## Работа с удаленными репозиториями
+* git clone https://... - копирование репозитория из GitHub
+
+* добавление существующего локального репозитория на GitHub :
+1. git remote add origin https://...
+2. git branch -M main(master)
+3. git push -u origin main(master)
+
+* git push - передача изменений на GitHub
+* git pull - загрузка последней актуальной версии с GitHub (происходит merge с локальным репозиторием)
